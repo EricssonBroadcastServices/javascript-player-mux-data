@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "target": "es6",
+    "sourceMap": true,
+    "lib": ["ES2015", "dom", "dom.iterable", "ES2020.Promise"],
+    "allowJs": true,
+    "declaration": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "strict": true,
+    "outDir": "./dist"
+  },
+  "include": [
+    "src/**/*",
+    "types/*"
+  ],
+  "exclude": ["node_modules"]
+}
