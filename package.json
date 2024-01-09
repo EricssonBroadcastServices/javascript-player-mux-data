@@ -1,5 +1,5 @@
 {
-  "name": "javascript-player-mux-data",
+  "name": "@redbeemedia/javascript-player-mux-data",
   "version": "1.0.0",
   "description": "RedBeeMedia JavaScript Player Mux Data module",
   "repository": {
