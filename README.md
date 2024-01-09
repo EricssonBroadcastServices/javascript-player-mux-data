@@ -2,7 +2,8 @@
 
 RedBeeMedia JavaScript Player Mux Data
 
-Plugin for RedBee JavaScript Player for sending analytics data to Mux.
+RedBee JavaScript Player plugin for sending analytics data to Mux.
+The plugin is provided as is and is not actively maintained.
 
 ## Usage
 
