@@ -1,6 +1,4 @@
-# JavaScript-player Mux Data
-
-RedBeeMedia JavaScript Player Mux Data
+# RedBeeMedia JavaScript Player Mux Data
 
 RedBee JavaScript Player plugin for sending analytics data to Mux.
 The plugin is provided as is and is not actively maintained.
