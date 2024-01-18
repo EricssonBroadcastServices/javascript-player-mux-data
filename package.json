@@ -7,8 +7,6 @@
     "url": "git+https://github.com/EricssonBroadcastServices/javascript-player-mux-data.git"
   },
   "main": "dist/index.js",
-  "author": "Red Bee Managed OTT",
-  "license": "MIT",
   "scripts": {
     "lint": "tsc --noEmit",
     "clean:dist": "rm -rf dist",
@@ -21,6 +19,7 @@
     "dist",
     "src"
   ],
+  "author": "",
   "dependencies": {
     "mux-embed": "4.22.0",
     "platform": "^1.3.6"
