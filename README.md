@@ -7,7 +7,7 @@ The plugin is provided as is and is not actively maintained.
 
 ```TypeScript
 import { RedBeePlayer } from "@redbeemedia/javascript-player";
-import { MuxDataPlugin } from "@redbeemedia/javascript-player-mux-data";
+import { MuxData } from "@redbeemedia/javascript-player-mux-data";
 
 // Setup and load the player as usual
 const player = new RedBeePlayer(...);
@@ -18,7 +18,7 @@ const player = new RedBeePlayer(...);
   See https://docs.mux.com/guides/data/make-your-data-actionable-with-metadata and
   https://docs.mux.com/guides/data/extend-data-with-custom-metadata#4-submitting-custom-metadata-from-mux-data-sdks for more information.
 */
-const analytics = new MuxDataPlugin({
+const analytics = new MuxData({
   debug: true,
   muxDataMetadata: {
     env_key: "your-mux-env-key",
