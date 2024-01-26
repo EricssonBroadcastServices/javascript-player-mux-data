@@ -101,7 +101,6 @@ export class MuxData {
   protected droppedFramesCount = 0;
   protected debug = false;
 
-
   constructor(options: IMuxDataPluginOptions) {
     this.debug = options.debug || false;
     this.playerId = this.mux.utils.generateUUID();
@@ -134,6 +133,9 @@ export class MuxData {
     }
     const playerInfo = this.playerInstance.getPlayerInfo();
     const assetInfo = this.playerInstance.getAssetInfo();
+    const assetLocalizedMetadata =
+      assetInfo?.localized?.find(({ locale }) => locale === this.locale) ||
+      assetInfo?.localized[0];
     const streamInfo = this.playerInstance.getStreamInfo();
     const session = this.playerInstance.getSession();
     const data: IMuxData = {
@@ -155,7 +157,7 @@ export class MuxData {
       video_stream_type: this.playerInstance.isLive() ? "live" : "on-demand",
       video_cdn: session?.cdnProvider,
       video_duration: assetInfo?.duration || 0,
-      video_title: assetInfo?.getTitle(this.locale) || "",
+      video_title: assetLocalizedMetadata?.title || "",
       video_source_url: streamInfo?.mediaLocator,
       sub_property_id: streamInfo
         ? streamInfo.hasDrm
