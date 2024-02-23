@@ -12,7 +12,7 @@ extends:
 plugins:
   - prettier
   - jest
-  - '@typescript-eslint'
+  - "@typescript-eslint"
 
 globals:
   Promise: true
@@ -28,11 +28,11 @@ rules:
     - selector: TSEnumDeclaration
       message: TypeScript enums have several pitfalls. Please use union type or JS objects declared with `as const` instead. See https://youtu.be/jjMbPt_H3RQ for a good explanation.
   no-undef: off # TypeScript already handles this better because it understands type definitions.
-  '@typescript-eslint/no-unused-vars': "error"
-  '@typescript-eslint/explicit-module-boundary-types': off
-  '@typescript-eslint/ban-ts-comment': "warn"
+  "@typescript-eslint/no-unused-vars": "error"
+  "@typescript-eslint/explicit-module-boundary-types": off
+  "@typescript-eslint/ban-ts-comment": "warn"
 
-parser: '@typescript-eslint/parser' 
+parser: "@typescript-eslint/parser"
 
 parserOptions:
   sourceType: module

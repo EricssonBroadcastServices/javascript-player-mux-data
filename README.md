@@ -65,6 +65,6 @@ Default fields that will be set on initialization:
   "video_stream_type": "<live/on-demand>",
   "video_cdn": "<video-cdn>",
   "video_duration": "<video-duration>",
-  "video_title": "<video-title>",
+  "video_title": "<video-title>"
 }
 ```
