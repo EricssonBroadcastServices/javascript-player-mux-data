@@ -1,5 +1,7 @@
 # RedBeeMedia JavaScript Player Mux Data
 
+[![version](https://img.shields.io/npm/v/@redbeemedia/javascript-player-mux-data?style=flat-square)](https://www.npmjs.com/package/@redbeemedia/javascript-player-mux-data)
+
 RedBee JavaScript Player plugin for sending analytics data to Mux.
 The plugin is provided as is and is not actively maintained.
 
