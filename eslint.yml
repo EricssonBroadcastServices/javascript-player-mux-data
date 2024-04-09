@@ -1,3 +1,7 @@
+# SPDX-FileCopyrightText: 2024 Red Bee Media Ltd <https://www.redbeemedia.com/>
+#
+# SPDX-License-Identifier: MIT
+
 env:
   browser: true
   es6: true
