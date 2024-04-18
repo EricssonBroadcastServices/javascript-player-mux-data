@@ -1,0 +1,12 @@
+Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Upstream-Name: @redbeemedia/javascript-player-mux-data
+Upstream-Contact: Red Bee Media Ltd <https://www.redbeemedia.com>
+Source: https://github.com/EricssonBroadcastServices/javascript-player-mux-data
+
+Files: package.json tsconfig.json
+Copyright: 2024 Red Bee Media Ltd <https://www.redbeemedia.com>
+License: MIT
+
+Files: package-lock.json
+Copyright: 2024 Red Bee Media Ltd <https://www.redbeemedia.com>
+License: CC0-1.0

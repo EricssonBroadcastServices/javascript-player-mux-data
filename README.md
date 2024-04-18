@@ -1,6 +1,13 @@
+<!--
+SPDX-FileCopyrightText: 2024 Red Bee Media Ltd <https://www.redbeemedia.com/>
+
+SPDX-License-Identifier: CC-BY-SA-4.0
+-->
+
 # RedBeeMedia JavaScript Player Mux Data
 
 [![version](https://img.shields.io/npm/v/@redbeemedia/javascript-player-mux-data?style=flat-square)](https://www.npmjs.com/package/@redbeemedia/javascript-player-mux-data)
+[![REUSE status](https://api.reuse.software/badge/github.com/EricssonBroadcastServices/javascript-player-mux-data)](https://api.reuse.software/info/github.com/EricssonBroadcastServices/javascript-player-mux-data)
 
 RedBee JavaScript Player plugin for sending analytics data to Mux.
 The plugin is provided as is and is not actively maintained.
